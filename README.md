@@ -11,6 +11,7 @@ This guide provides step-by-step instructions to set up a web server using the f
   - [Building the Docker Image](#building-the-docker-image)
   - [Accessing the Docker Containers](#running-the-docker-containers)
   - [Updating the MySQL Data Base](#Updating-the-MySQL-Data-Base)
+  - [Changing the web app source code](#Changing-the-web-app-source-code)
 - [Accessing the Website](#accessing-the-website)
 - [Contributing](#contributing)
 - [License](#license)
@@ -63,13 +64,17 @@ Before you begin, ensure that you have the following prerequisites installed on 
 
 ### Updating the MySQL Data Base
 
-1. If you want to backup the database before recreating a new environement while keeping the new database
+1. If you want to backup the database before recreating a new environement while keeping the new database:
     
    ```bash
    ./backup_db.sh
    ```
 
-  This will update the initialization database to have the new data after recreating a new server
+  This will update the initialization database to have the new data after recreating a new server.
+
+### Changing the web app source code
+
+1. You can either change them directly from the sources directory or connect to the web server as shown before and update them from there.
 
 ## Accessing the Website
 
@@ -83,5 +88,5 @@ Before you begin, ensure that you have the following prerequisites installed on 
    http://localhost:9001/
    ```
 
-   login  :   myuser
-   pass   :   password
+  login  :   myuser
+  pass   :   password
