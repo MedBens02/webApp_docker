@@ -88,5 +88,6 @@ Before you begin, ensure that you have the following prerequisites installed on 
    http://localhost:9001/
    ```
 
-  login  :   myuser
-  pass   :   password
+  login  :   `myuser`
+  pass   :   `password`
+
