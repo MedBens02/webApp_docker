@@ -21,9 +21,9 @@ This guide provides step-by-step instructions to set up a web server using the f
 
 This project is authored by:  
   
-  ` Bensaddik Mohamed  
-    bensm.com  
-    mohamedbensaddik1234@gmail.com`  
+  Bensaddik Mohamed  
+  bensm.com  
+  mohamedbensaddik1234@gmail.com
 
 ## Introduction
 
