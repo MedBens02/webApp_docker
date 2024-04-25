@@ -4,6 +4,7 @@ This guide provides step-by-step instructions to set up a web server using the f
 
 ## Table of Contents
 
+- [Authors](#Authors)
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
@@ -14,7 +15,13 @@ This guide provides step-by-step instructions to set up a web server using the f
   - [Changing the web app source code](#Changing-the-web-app-source-code)
 - [Accessing the Website](#accessing-the-website)
 - [Contributing](#contributing)
-- [License](#license)
+
+
+## Authors
+
+This project is authored by:
+  `Bensaddik Mohamed`
+  `mohamedbensaddik1234@gmail.com`
 
 ## Introduction
 
