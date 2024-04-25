@@ -9,7 +9,8 @@ This guide provides step-by-step instructions to set up a web server using the f
 - [Getting Started](#getting-started)
   - [Cloning the Repository](#cloning-the-repository)
   - [Building the Docker Image](#building-the-docker-image)
-  - [Running the Docker Containers](#running-the-docker-containers)
+  - [Accessing the Docker Containers](#running-the-docker-containers)
+  - [Updating the MySQL Data Base](#Updating-the-MySQL-Data-Base)
 - [Accessing the Website](#accessing-the-website)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,12 +34,18 @@ Before you begin, ensure that you have the following prerequisites installed on 
    ```bash
    git clone https://github.com/MedBens02/webApp_docker.git
    ```
-2. Run the create_env.sh script
+
+### Building the Docker Image
+
+1. Run the create_env.sh script
   
    ```bash
    ./create_env.sh
    ```
-3. If you want to access the webserver get its id then run access_server.sh
+
+### Accessing the Docker Containers
+
+1. If you want to access a container get its id then run access_server.sh
     
     Example: 
 
@@ -53,3 +60,13 @@ Before you begin, ensure that you have the following prerequisites installed on 
     bensm@bensm-VirtualBox:~/docker/webApp_docker$ ./access_server.sh 0349f8fd9f7d
     root@0349f8fd9f7d:/var/www/html# 
     ```
+
+### Updating the MySQL Data Base
+
+1. If you want to backup the database before recreating a new environement while keeping the new database
+    
+   ```bash
+   ./backup_db.sh
+   ```
+
+  This will update the initialization database to have the new data after recreating a new server
