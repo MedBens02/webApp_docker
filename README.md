@@ -1,6 +1,6 @@
 # Web Server Setup Guide
 
-This guide provides step-by-step instructions to set up a web server using the files provided in this repository.
+This guide provides step-by-step instructions to set up a 3 containers web app developpement environement using the files provided in this repository.
 
 ## Table of Contents
 
@@ -27,7 +27,15 @@ This project is authored by:
 
 ## Introduction
 
-This repository contains the files required to set up a web server using Docker. The server includes a PHP-based web application and a MySQL database.
+This repository contains the files required to set up a 3 containers web app developpement environement using Docker. The server includes a simple PHP-based web application and a MySQL database. The web server have git pre-installed.
+You will also find pre-written scripts to easily set up the containers, interact with them and update the database.
+The containers have volumes linked to the host:
+  ```bash
+  ./sources   ->  /var/www/html
+  ./db        ->  /docker-entrypoint-initdb.d
+  ```
+  The project files and database initial data can be modified in real-time from the host machine's directories specified above or from within the containers.
+
 
 ## Prerequisites
 
