@@ -23,7 +23,6 @@ This project is authored by:
   
   Bensaddik Mohamed  
   Portfolio: [bensym.com](https://bensym.com/)
-  bensm.com  
   mohamedbensaddik1234@gmail.com
 
 ## Introduction
