@@ -27,14 +27,14 @@ This project is authored by:
 
 ## Introduction
 
-This repository contains the files required to set up a 3 containers web app developpement environement using Docker. The server includes a simple PHP-based web application and a MySQL database. The web server have git pre-installed.
-You will also find pre-written scripts to easily set up the containers, interact with them and update the database.
-The containers have volumes linked to the host:
-  ```bash
-  ./sources   ->  /var/www/html
-  ./db        ->  /docker-entrypoint-initdb.d
-  ```
-  The project files and database initial data can be modified in real-time from the host machine's directories specified above or from within the containers.
+This repository facilitates the setup of a development environment for a web application using Docker. It consists of three containers: a web server, a MySQL database, and phpMyAdmin. The web server container comes pre-installed with Git for version control convenience.
+
+In addition to the Docker configuration files, the repository includes scripts for easy setup, container management, and database interaction. The containers are configured with volumes that link host machine directories to specific locations within the containers:
+
+    ./sources is mapped to /var/www/html on the web server container, allowing real-time modification of project files.
+    ./db is mapped to /docker-entrypoint-initdb.d on the MySQL container, facilitating easy access and updates to the database.
+
+This setup enables seamless development and testing of the web application, allowing developers to work efficiently both from the host machine and within the containers.
 
 
 ## Prerequisites
