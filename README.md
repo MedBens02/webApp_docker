@@ -70,3 +70,18 @@ Before you begin, ensure that you have the following prerequisites installed on 
    ```
 
   This will update the initialization database to have the new data after recreating a new server
+
+## Accessing the Website
+
+1. Open any browser on your machine.
+2. Go to:
+   ```bash
+   http://localhost:9000/
+   ```
+3. Modify the database from:
+   ```bash
+   http://localhost:9001/
+   ```
+
+   login  :   myuser
+   pass   :   password
